@@ -104,7 +104,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'sly36$default',
         'USER': 'sly36',
-        'PASSWORD': 'Password',
+        'PASSWORD': os.getenv('MYSQL_PASSWORD'),
         'HOST': 'sly36.mysql.pythonanywhere-services.com',
         'OPTIONS': {
             'init_command': "SET NAMES 'utf8mb4';SET sql_mode='STRICT_TRANS_TABLES'",
