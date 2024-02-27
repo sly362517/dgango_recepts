@@ -30,6 +30,8 @@ DEBUG = False
 SESSION_COOKIE_SECURE = True
 CSRF_COOKIE_SECURE = True
 
+SECRET_KEY = os.getenv('SECRET_KEY')
+
 ALLOWED_HOSTS = [
     'sly36.pythonanywhere.com',
 ]
