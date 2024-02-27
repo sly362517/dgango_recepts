@@ -26,7 +26,7 @@ urlpatterns = [
     path('', include("recipesapp.urls")),
     path('admin/', admin.site.urls),
     path('account/', include('users.urls')),
-
+    # path('__debug__/', include("debug_toolbar.urls")),
 ]
 
 if settings.DEBUG:

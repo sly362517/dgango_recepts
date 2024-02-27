@@ -46,6 +46,7 @@ INSTALLED_APPS = [
     "recipesapp.apps.RecipesappConfig",
     "crispy_forms",
     "crispy_bootstrap5",
+    'debug_toolbar',
 ]
 
 CRISPY_ALLOWED_TEMPLATE_PACKS = "bootstrap5"
